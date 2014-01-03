@@ -37,6 +37,8 @@ class jbossas (
     }
   }
 
+	require java
+
   class install {
     $mirror_url_version = "${jbossas::mirror_url}jboss-as-${jbossas::version}.tar.gz"
     $dist_dir = '/home/jbossas/tmp'
